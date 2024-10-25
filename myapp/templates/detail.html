@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ item.name }} Details</title>
+</head>
+<body>
+    <h1>{{ item.name }}</h1>
+    <p>{{ item.description }}</p>
+    <a href="{% url 'data_list' %}">Back to All Items</a><br>
+    <a href="{% url 'home' %}">Back to Home</a>
+</body>
+</html>
